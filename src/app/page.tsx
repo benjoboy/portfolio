@@ -15,9 +15,9 @@ export default function Home() {
                     <div className="bg-black dark:bg-black-800 rounded-lg shadow-xl p-8 mb-8">
                         <div className="prose prose-lg max-w-none dark:prose-invert">
                             <p className="text-black-700 dark:text-gray-300 leading-relaxed text-lg mb-6">
-                                Hi, I'm Benjamin. I'm a full-stack developer who builds and ships
-                                products across the entire stack, from backend and frontend to
-                                embedded systems and DevOps.
+                                Hi, I&apos;m Benjamin. I&apos;m a full-stack developer who builds
+                                and ships products across the entire stack, from backend and
+                                frontend to embedded systems and DevOps.
                             </p>
 
                             <ul className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mb-6 space-y-0 list-disc list-inside">

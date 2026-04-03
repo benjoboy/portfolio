@@ -14,8 +14,9 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-    title: "Benjamin Serec",
-    description: "Benjamin Serec's personal website",
+    title: "Benjamin Serec — Full stack developer",
+    description:
+        "Full stack developer in Maribor, Slovenia. TypeScript, Go, React, Next.js, Kubernetes, IoT. Bachelor CS, University of Maribor.",
     icons: {
         icon: "/icon.svg",
     },

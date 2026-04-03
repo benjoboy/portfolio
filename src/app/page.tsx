@@ -5,9 +5,12 @@ export default function Home() {
                 <div className="max-w-4xl mx-auto">
                     {/* Header Section */}
                     <div className="text-center mb-12">
-                        <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-4">
+                        <h1 className="text-5xl font-bold text-gray-900 dark:text-white mb-2">
                             Benjamin Serec
                         </h1>
+                        <p className="text-xl text-gray-600 dark:text-gray-400 mb-6">
+                            Full stack developer · Maribor, Slovenia
+                        </p>
                         <div className="w-24 h-1 bg-black dark:bg-white mx-auto mb-8"></div>
                     </div>
 
@@ -15,35 +18,65 @@ export default function Home() {
                     <div className="bg-black dark:bg-black-800 rounded-lg shadow-xl p-8 mb-8">
                         <div className="prose prose-lg max-w-none dark:prose-invert">
                             <p className="text-black-700 dark:text-gray-300 leading-relaxed text-lg mb-6">
-                                Hi, I&apos;m Benjamin. I&apos;m a full-stack developer who builds
-                                and ships products across the entire stack, from backend and
-                                frontend to embedded systems and DevOps.
+                                I&apos;m a full stack developer from Slovenia with a Bachelor&apos;s
+                                in Computer Science and Information Technologies from the
+                                University of Maribor. I focus on scalable products for
+                                clients—backend, frontend, embedded, and cloud.
                             </p>
 
-                            <ul className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mb-6 space-y-0 list-disc list-inside">
+                            <ul className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mb-6 space-y-2 list-disc list-inside">
                                 <li>
-                                    I develop web and mobile apps. Some of the technologies i use:
-                                    Next.js, Node.js, GraphQL, Go, React Native, and more.
+                                    Lead full stack developer at Agitron: architecture, code
+                                    reviews, mentoring, IoT at scale (50k+ devices), MQTT,
+                                    ESP32 and Nordic firmware, Bluetooth, e-paper rendering,
+                                    third-party integrations, Electron
+                                    kiosks, SQL performance, GitLab CI/CD, Kubernetes, and Grafana.
                                 </li>
                                 <li>
-                                    I manage Kubernetes clusters and handle CI/CD pipelines to keep
-                                    apps running reliably.
+                                    Web and mobile with TypeScript, Go, C++, React, Next.js,
+                                    Node.js (GraphQL, TypeORM), and React Native. Data stores
+                                    include PostgreSQL, Redis, and MongoDB.
                                 </li>
                                 <li>
-                                    I also work in the embedded world, developing for ESP32 and
-                                    Nordic devices.
+                                    Infrastructure and messaging: Docker, Kubernetes (Helm), GitLab
+                                    pipelines, Oracle Cloud, Ansible, NATS, and MQTT.
                                 </li>
                             </ul>
 
                             <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
-                                I love working across the stack to turn ideas into working
-                                solutions.
+                                Product work at Agitron spans warehouse IoT and smart scales,
+                                e-paper office signage (Orbis), lab operations software (Pregl
+                                Digital), and retail kiosks. Earlier at Epi spectrum I shipped a
+                                React app and Node.js backend for Slovenia&apos;s national lab of
+                                health, environment, and food. On the side I run a bare-metal home
+                                Kubernetes cluster and have built tooling to compare crypto
+                                exchange prices.
                             </p>
                         </div>
                     </div>
 
                     {/* Social Links */}
                     <div className="flex justify-center gap-6 flex-wrap">
+                        <a
+                            href="mailto:serec.benjamin@gmail.com"
+                            className="group flex items-center gap-3 bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
+                        >
+                            <svg
+                                className="w-5 h-5"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                />
+                            </svg>
+                            Email
+                        </a>
+
                         <a
                             href="https://www.linkedin.com/in/benjamin-serec/"
                             target="_blank"

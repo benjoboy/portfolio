@@ -19,23 +19,23 @@ export default function Home() {
                         <div className="prose prose-lg max-w-none dark:prose-invert">
                             <p className="text-black-700 dark:text-gray-300 leading-relaxed text-lg mb-6">
                                 I&apos;m a full stack developer from Slovenia with a Bachelor&apos;s
-                                in Computer Science and Information Technologies from the
-                                University of Maribor. I focus on scalable products for
-                                clients—backend, frontend, embedded, and cloud.
+                                in Computer Science and Information Technologies from the University
+                                of Maribor. I focus on scalable products for clients—backend,
+                                frontend, embedded, and cloud.
                             </p>
 
                             <ul className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mb-6 space-y-2 list-disc list-inside">
                                 <li>
                                     Lead full stack developer at Agitron: architecture, code
-                                    reviews, mentoring, IoT at scale (50k+ devices), MQTT,
-                                    ESP32 and Nordic firmware, Bluetooth, e-paper rendering,
-                                    third-party integrations, Electron
-                                    kiosks, SQL performance, GitLab CI/CD, Kubernetes, and Grafana.
+                                    reviews, mentoring, IoT at scale (50k+ devices), MQTT, ESP32 and
+                                    Nordic firmware, Bluetooth, e-paper rendering, third-party
+                                    integrations, Electron kiosks, SQL performance, GitLab CI/CD,
+                                    Kubernetes, and Grafana.
                                 </li>
                                 <li>
-                                    Web and mobile with TypeScript, Go, C++, React, Next.js,
-                                    Node.js (GraphQL, TypeORM), and React Native. Data stores
-                                    include PostgreSQL, Redis, and MongoDB.
+                                    Web and mobile with TypeScript, Go, C++, React, Next.js, Node.js
+                                    (GraphQL, TypeORM), and React Native. Data stores include
+                                    PostgreSQL, Redis, and MongoDB.
                                 </li>
                                 <li>
                                     Infrastructure and messaging: Docker, Kubernetes (Helm), GitLab
@@ -49,16 +49,15 @@ export default function Home() {
                                 Digital), and retail kiosks. Earlier at Epi spectrum I shipped a
                                 React app and Node.js backend for Slovenia&apos;s national lab of
                                 health, environment, and food. On the side I run a bare-metal home
-                                Kubernetes cluster and have built tooling to compare crypto
-                                exchange prices.
+                                Kubernetes cluster and have built tooling to compare crypto exchange
+                                prices.
                             </p>
                         </div>
                     </div>
 
                     {/* Social Links */}
                     <div className="flex justify-center gap-6 flex-wrap">
-                        <a
-                            href="mailto:serec.benjamin@gmail.com"
+                        {/* <a
                             className="group flex items-center gap-3 bg-gray-700 hover:bg-gray-600 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 shadow-lg"
                         >
                             <svg
@@ -75,7 +74,7 @@ export default function Home() {
                                 />
                             </svg>
                             Email
-                        </a>
+                        </a> */}
 
                         <a
                             href="https://www.linkedin.com/in/benjamin-serec/"

@@ -9,7 +9,7 @@ export default function Home() {
                             Benjamin Serec
                         </h1>
                         <p className="text-xl text-gray-600 dark:text-gray-400 mb-6">
-                            Full stack developer · Maribor, Slovenia
+                            Software engineer · Maribor, Slovenia
                         </p>
                         <div className="w-24 h-1 bg-black dark:bg-white mx-auto mb-8"></div>
                     </div>
@@ -18,19 +18,18 @@ export default function Home() {
                     <div className="bg-black dark:bg-black-800 rounded-lg shadow-xl p-8 mb-8">
                         <div className="prose prose-lg max-w-none dark:prose-invert">
                             <p className="text-black-700 dark:text-gray-300 leading-relaxed text-lg mb-6">
-                                I&apos;m a full stack developer from Slovenia with a Bachelor&apos;s
-                                in Computer Science and Information Technologies from the University
-                                of Maribor. I focus on scalable products for clients—backend,
-                                frontend, embedded, and cloud.
+                                I&apos;m a software engineer from Slovenia with a Bachelor&apos;s in
+                                Computer Science and Information Technologies from the University of
+                                Maribor. I focus on scalable products for clients—backend, frontend,
+                                embedded, and cloud.
                             </p>
 
                             <ul className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg mb-6 space-y-2 list-disc list-inside">
                                 <li>
-                                    Lead full stack developer at Agitron: architecture, code
-                                    reviews, mentoring, IoT at scale (50k+ devices), MQTT, ESP32 and
-                                    Nordic firmware, Bluetooth, e-paper rendering, third-party
-                                    integrations, Electron kiosks, SQL performance, GitLab CI/CD,
-                                    Kubernetes, and Grafana.
+                                    Lead engineer at Agitron: architecture, code reviews, mentoring,
+                                    IoT at scale (50k+ devices), MQTT, ESP32 and Nordic firmware,
+                                    Bluetooth, e-paper rendering, third-party integrations, Electron
+                                    kiosks, SQL performance, GitLab CI/CD, Kubernetes, and Grafana.
                                 </li>
                                 <li>
                                     Web and mobile with TypeScript, Go, C++, React, Next.js, Node.js
